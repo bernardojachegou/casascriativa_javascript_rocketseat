@@ -1,7 +1,7 @@
-const sqlite3 = require('sqlite3').verbose();
-const db = new sqlite3.Database('./CC.db');
+const sqlite3 = require('sqlite3').verbose()
+const db = new sqlite3.Database('./ws.db')
 
-db.serialize(function () {
+db.serialize(function() {
 
     // CRIAR TABELA SE ELA NÃO EXISTIR
     db.run(`
@@ -40,7 +40,7 @@ db.serialize(function () {
     //     console.log(this)
     // });
 
-    //CONSULTAR DADOS DA TABELA
+    // //CONSULTAR DADOS DA TABELA
     // db.all(`SELECT * FROM ideas `, function(err, rows) {
     //     if (err) return console.log(err)
 
@@ -54,6 +54,6 @@ db.serialize(function () {
     //      console.log("DELETEI", this)
     // });
 
-});
+})
 
 exports.modules = db
