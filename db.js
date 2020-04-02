@@ -40,15 +40,15 @@ db.serialize(function() {
     //     console.log(this)
     // });
 
-    // //CONSULTAR DADOS DA TABELA
-    // db.all(`SELECT * FROM ideas `, function(err, rows) {
-    //     if (err) return console.log(err)
+    // CONSULTAR DADOS DA TABELA
+    db.all(`SELECT * FROM ideas `, function(err, rows) {
+        if (err) return console.log(err)
 
-    //     console.log(rows)
-    // });
+        console.log(rows)
+    });
 
     // // DELETAR DADOS DA TEBELA
-    // db.run(`DELETE FROM ideas WHERE id =?`, [1], function(err) {
+    // db.run(`DELETE FROM ideas WHERE id =?`, [3], function(err) {
     //      if (err) return console.log(err)
 
     //      console.log("DELETEI", this)
@@ -56,4 +56,4 @@ db.serialize(function() {
 
 })
 
-exports.modules = db
+module.exports = db
