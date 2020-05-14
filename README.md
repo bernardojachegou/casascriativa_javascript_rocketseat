@@ -33,4 +33,6 @@ O curso foi ministrado gratuitamente para todos os inscritos e o objetivo do pro
 
 3 - Rode um `npm run dev` para rodar o projeto.
 
-4 - Curta o projeto!
+4 - Abra o projeto em localhost:3000.
+
+5 - Curta o projeto!
