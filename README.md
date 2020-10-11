@@ -1,24 +1,39 @@
 <h1 align="center">
-    <img alt="preview application" src="https://imgur.com/5bjdaTQ.png" width="300px"/>
+    <img alt="preview application" src="https://imgur.com/sLB0jG4.png" width="600px"/>
 </h1>
 
 <h3 align="center">
-    React Bootcamp at Digital Innovation One
+  :rocket: Workshop Dev - Rocketseat
 </h3>
 
-## :book: About:
+## :book: Sobre o projeto:
 
-<p> This is a simple project created in the bootcamp. The Instagram login page using JS and Responsive CSS features.</p>
+<p> O projeto Casa Criativa foi desenvolvido em Março de 2020 no WorkshopDev da Rocketseat. 
 
- ## :iphone: Tools:
+O curso foi ministrado gratuitamente para todos os inscritos e o objetivo do projeto é catalogar ideias de diversas coisas que podem ser feitas em casa durante uma quarentena.
+</p>
+
+ ## :iphone: Tecnologias e ferramentas:
 
  <ul>
   <li>Javascript</li>
   <li>HTML</li>
   <li>CSS</li>
+  <li>Node.js</li>
+  <li>Nodemon</li>
+  <li>Nunjucks</li>
+  <li>SQlite3</li>
  </ul>
  
-## :computer: Running:
+## :computer: Rodando o projeto:
 
-1 - Clone the project and open it using any IDE.
+1 - Clone o projeto e o abra utilizando seu editor preferido.
+
+2 - Rode um `npm install` na pasta do projeto.
+
+3 - Rode um `npm run dev` para rodar o projeto.
+
+4 - Abra o projeto em `localhost:3000`
+
+5 - Curta o projeto!
 
