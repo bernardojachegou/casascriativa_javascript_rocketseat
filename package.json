@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/bernardojachegou/rocketseat_webproject_casacriativa#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "install": "^0.13.0",
     "nodemon": "^2.0.2",
     "nunjucks": "^3.2.1",
